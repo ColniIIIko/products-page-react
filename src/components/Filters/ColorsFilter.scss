@@ -1,0 +1,39 @@
+.checkbox-filter{
+  padding: 5px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 15px;
+  background-color: #F3E8E8;
+
+  &__input{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  &__label{
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  &__label::before{
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-right: 10px;
+    background-color: #fff;
+    transition: all .2s linear;
+  } 
+
+  &__input:checked+&__label::before{
+    background-color: #94B2FF;
+    box-shadow: inset -1px -1px 4px rgba(255, 255, 255, 0.25), 
+                inset 1px 1px 4px rgba(255, 255, 255, 0.4);
+  } 
+}

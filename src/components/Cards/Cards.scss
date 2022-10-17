@@ -1,0 +1,11 @@
+.cards{
+  display: grid;
+  gap: 30px 25px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: start;
+
+  @media screen and (max-width: 890px){
+    justify-items: center;
+  }
+}

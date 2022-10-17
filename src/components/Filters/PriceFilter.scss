@@ -1,0 +1,19 @@
+.range-filter{
+  display: flex;
+  column-gap: 10px;
+  background-color: #F3E8E8;
+  margin-bottom: 15px;
+
+  &__input{
+    width: 80px;
+    padding-left: 4px;
+    font-size: 16px;
+    border:0;
+    border-bottom: 2px solid #000;
+    padding-top: 8px;
+
+    &:focus{
+      outline: none;
+    }
+  }
+}
