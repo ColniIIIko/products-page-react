@@ -1,2 +1,2 @@
 # products-page-react
-Created with CodeSandbox
+Simple react-app for my web-programming classes
