@@ -1,5 +1,5 @@
 # products-page-react
-##Kind of typical web-site selling some staff to you on react.
+## Kind of typical web-site selling some staff to you on react.
 
 Made for my web-programming classes.
 
